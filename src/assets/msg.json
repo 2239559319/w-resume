@@ -1,0 +1,82 @@
+{
+  "title": "小川的简历",
+  "imgUrl": "https://avatars3.githubusercontent.com/u/34960995?s=460&u=f73bf4f5c859359267adf81f461d61f6ac48601c&v=4",
+  "work": "前端开发",
+  "contact": {
+    "phone": "13072860887",
+    "email": "w2239559319@outlook.com",
+    "github": {
+      "name": "Xiao Chuan",
+      "url": "https://github.com/2239559319"
+    },
+    "npm": {
+      "name": "xiaochuan",
+      "url": "https://www.npmjs.com/~w2239559319"
+    }
+  },
+  "basic": {
+    "name": "万川琳",
+    "birth": "1998.12",
+    "sex": "男",
+    "addr": "四川成都"
+  },
+  "education": {
+    "school": "四川大学",
+    "major": "计算机科学与技术",
+    "status": "本科",
+    "time": "2017.9 - 现在"
+  },
+  "skills": [
+    "熟悉 es5+es6",
+    "熟悉 html/css",
+    "熟悉 vue/vue-router",
+    "了解 webpack",
+    "了解 nodejs",
+    "了解 typescript"
+  ],
+  "projects": [
+    {
+      "name": "课表美化",
+      "url": "https://github.com/2239559319/s-table",
+      "skill": "vue + css3 grid",
+      "desc": "美化个人教务处默认课表的应用，用Vue+css3 grid实现，维护主要的课程组件，通过计算课程的位置来进行组件位置排放，未来也可用于班级课表的导入",
+      "result": [
+        "1.实现对课程组件的复用",
+        "2.实现了由本地的手动导入课表",
+        "3.展望：课程组件可以复用到班级的课表中"
+      ]
+    },
+    {
+      "name": "github仓库语言分析",
+      "url": "https://github.com/2239559319/repoAnalyze",
+      "desc": "通过github v3api获取个人仓库代码信息，统计得到每种语言的大小以及比例，进行绘图",
+      "skill": "vue",
+      "result": [
+        "1.对github个人仓库信息进行抓取",
+        "2.根据已有信息文件进行前端绘图，使用了e-chart"
+      ]
+    },
+    {
+      "name": "教务处选课助手（私有仓库）",
+      "url": "https://github.com/2239559319/scuhelper",
+      "skill": "chrome extension + vue",
+      "desc": "一个chrome插件，通过分析现有请求的课余量进行选课，向网页中注入一个Vue实例进行相应的操作",
+      "result": [
+        "1.用webpack进行搭建开发extension环境，熟悉了相应的webpack插件",
+        "2.用插入页面的Vue实例来读取用户输入",
+        "3.使用chrome extension提供的api来插入页面进行请求操作，实现有课时可以通知到Vue实例并作出相应反应"
+      ]
+    },
+    {
+      "name": "课表下载",
+      "url": "https://github.com/2239559319/scu-course-downloader",
+      "skill": "nodejs",
+      "desc": "一个课表下载的nodejs程序，用于从教务处下载所有的课表保存到本地的excel文件方便查看",
+      "result": [
+        "1.通过分析请求发现请求的参数存在于html页面中，用cheerio对页面进行分析得到请求的参数",
+        "2.考虑请求频率所以用继发的阻塞请求"
+      ]
+    }
+  ],
+  "evaluate": "热爱前端，经常会去论坛学习，也维护着自己写的一些项目并发布到github和npm"
+}
