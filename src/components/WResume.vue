@@ -127,17 +127,22 @@
 </template>
 
 <script>
-import msg from '@/assets/msg.json'
 import WProject from './WProject'
 import ContactItem from './ContactItem'
 
 export default {
   name: 'w-resume',
-  data() {
-    return {
-      msg
+  props: {
+    msg: {
+      required: true,
+      type: Object
     }
   },
+  // data() {
+  //   return {
+  //     msg
+  //   }
+  // },
   components: {
     WProject,
     ContactItem
@@ -162,6 +167,10 @@ img {
 }
 a {
   text-decoration: none;
+}
+.iconfont {
+  font-size: 16px;
+  vertical-align: text-top;
 }
 .box {
   margin: 10px auto;

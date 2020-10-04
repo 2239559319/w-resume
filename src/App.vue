@@ -1,22 +1,30 @@
-<template>
-  <div id="app">
-    <w-resume />
-  </div>
-</template>
-
 <script>
 import WResume from './components/WResume'
+import msg from '@/assets/msg.json'
 
 export default {
   name: 'App',
   components: {
     WResume
+  },
+  render: h => {
+    return h('div', {
+      attrs: {
+        id: 'app'
+      }
+    }, [
+      h(WResume, {
+        props: {
+          msg
+        }
+      })
+    ])
   }
 }
 </script>
 
 <style>
 :root {
-  --main-color: #ff6666;
+  --main-color: rgb(91, 164, 229);
 }
 </style>
