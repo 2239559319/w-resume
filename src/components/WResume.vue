@@ -163,18 +163,16 @@ img {
 a {
   text-decoration: none;
 }
-/* .iconfont {
-  font-size: 16px;
-  vertical-align: text-top;
-} */
 .box {
   margin: 10px auto;
+  position: relative;
   width: 1000px;
-  border: 1px solid var(--main-color);
 }
 .resume {
-  margin: 0 auto;
+  position: relative;
+  margin: 10px;
   display: flex;
+  border: 1px solid var(--main-color);
 }
 .left {
   flex: 1;
