@@ -138,11 +138,6 @@ export default {
       type: Object
     }
   },
-  // data() {
-  //   return {
-  //     msg
-  //   }
-  // },
   components: {
     WProject,
     ContactItem
@@ -168,10 +163,10 @@ img {
 a {
   text-decoration: none;
 }
-.iconfont {
+/* .iconfont {
   font-size: 16px;
   vertical-align: text-top;
-}
+} */
 .box {
   margin: 10px auto;
   width: 1000px;
@@ -193,7 +188,7 @@ a {
 ul .iconfont::before {
   font-size: 20px;
   margin-right: 5px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 .title-box {
   padding: 10px 0;
@@ -231,13 +226,16 @@ ul .iconfont::before {
   padding: 16px;
   padding-top: 0;
 }
+.basic-msg span, .education-msg span {
+  line-height: 1.2;
+  vertical-align: middle;
+}
 .basic-msg > ul, .education-msg > ul {
   display: flex;
   flex-flow: wrap;
 }
 .basic-msg li, .education-msg li {
   width: 50%;
-  padding: 3px;
 }
 .skills-msg {
   line-height: 1.5;
